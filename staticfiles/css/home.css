@@ -1,0 +1,98 @@
+body {
+  background-color: #f8f9fa;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Added background color for the entire page */
+html {
+  background-color: #e9ecef;
+}
+
+#profile-wrapper {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 5%;
+  margin: 0 auto 20px auto; /* Simplified margin */
+  display: block; /* Ensures the image is centered */
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+/* Consistent naming convention */
+.social-links ul,
+.social-links li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.social {
+  width: 20px;
+  height: 20px;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+h2,
+h4,
+h5 {
+  color: #007bff;
+}
+
+hr {
+  border-top: 2px solid #007bff;
+}
+
+.container {
+  margin-top: 20px;
+  background-color: #ffffff; /* Added a background color for the container */
+  padding: 20px; /* Added padding for better spacing */
+}
+
+.card-body {
+  color: #343a40;
+}
+
+/* Project Cards */
+.card-body p {
+  color: #555;
+}
+
+/* Education and Certification Cards */
+.card-body p em {
+  color: #6c757d;
+}
+
+/* Co-curricular and Volunteer Work Cards */
+.card-body p:last-child {
+  margin-bottom: 0;
+}
+
+/* Projects Section */
+.col-md-9 {
+  margin-top: 20px; /* Added top margin to create space between profile and projects */
+}
+
+.card.card-body.h-100.border-info {
+  padding: 20px; /* Added padding for better spacing within the projects box */
+}

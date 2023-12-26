@@ -1,0 +1,133 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aaryan Kedia</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="{% static '/css/home.css' %}" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+    <div class="container">
+        <div class="row">
+            <!-- Profile Section -->
+            <div class="col-md-3">
+                <div class="card card-body h-100 border-info" id="profile-wrapper">
+                    <img id="profile-pic" src="{% static 'images/my-passport-photo (3).jpg' %}">
+                    <hr>
+                    <h4>Hi, I'm Aaryan!</h4>
+                    <p>Computer Science Enthusiast</p>
+                    <p>BTech CSE student with a strong interest in technology and a solid understanding of computer science basics. Eager to contribute to industry-leading projects and learn emerging technologies such as AI and data science. Seeking entry-level opportunities to jumpstart my career.</p>
+                    <!-- Core Skills -->
+                    <h4>Core Skills:</h4>
+                    <ul>
+                        <li>Python</li>
+                        <li>Django</li>
+                        <li>MySQL</li>
+                        <li>PowerBI</li>
+                        <li>Tkinter</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Responsive Web Design</li>
+                        <li>KNIME</li>
+                        <li>Communication</li>
+                        <li>Problem Solving</li>
+                        <li>Time Management</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Projects Section -->
+            <div class="col-md-9">
+                <div class="card card-body h-100 border-info">
+                    <h2>My Projects</h2>
+                    <br>
+                    <!-- Project 1 -->
+                    <h4>Web Page Development</h4>
+                    <hr>
+                    <p>Implemented a responsive web page using HTML, CSS, and JavaScript to showcase front-end development skills. Focused on creating an engaging UI and ensuring cross-browser compatibility.</p>
+                    <p>Utilized modern web development practices for a dynamic and visually appealing website.</p>
+
+                    <!-- Project 2 -->
+                    <h4>Sales Dashboard with Power BI</h4>
+                    <hr>
+                    <p>Developed a comprehensive sales dashboard using Power BI, integrating data from various sources to provide real-time insights into sales performance. The dashboard featured interactive visualizations and customizable reports.</p>
+                    <p>Implemented key performance indicators (KPIs) and utilized Power BI's analytical capabilities to help stakeholders make informed business decisions based on sales trends and patterns.</p>
+
+                    <!-- Project 3 -->
+                    <h4>Marks Tracker with Django</h4>
+                    <hr>
+                    <p>Designed and implemented a Marks Tracker application using Django, a high-level Python web framework. The application allowed users to efficiently manage and track academic marks and performance.</p>
+                    <p>Implemented user authentication, data storage, and interactive features to create a seamless experience for tracking and analyzing academic progress. The project showcased skills in full-stack web development.</p>
+
+                    <!-- Project 4 -->
+                    <h4>Language Translator Application with Python</h4>
+                    <hr>
+                    <p>Developed a language translator application using Python, leveraging natural language processing (NLP) libraries. The application supported translation between multiple languages and featured a user-friendly interface.</p>
+                    <p>Implemented language detection, translation algorithms, and integrated external APIs to enhance the accuracy and versatility of the translator. The project demonstrated proficiency in software development with Python.</p>
+                    <!-- Add more projects as needed -->
+                </div>
+            </div>
+        </div>
+        <br>
+        <!-- Education Section -->
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>EDUCATION</h5>
+                    <hr>
+                    <p><strong>Bachelor of Technology in Computer Science Engineering</strong><br>
+                        <em>Shiv Nadar IOE</em></p>
+                    <p><strong>Minor - Bachelor of Management Studies</strong><br>
+                        <em>Shiv Nadar IOE</em></p>
+                    <p><strong>CGPA - 7.5</strong><br>
+                        <em>2020 - 2024</em></p>
+                </div>
+            </div>
+
+            <!-- Certifications Section -->
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>CERTIFICATION & COURSES</h5>
+                    <hr>
+                    <p>Topper in NPTEL: Principles of Management from IIT Roorkee.</p>
+                    <p>Python for Everybody Specialization</p>
+                    <p>Database Management System</p>
+                    <p>Introduction to HTML5</p>
+                    <p>Introduction to CSS3</p>
+                    <p>Advanced Styling with Responsive Design</p>
+                    <p>Foundation of Information Security</p>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- Co-Curricular Section -->
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>CO-CURRICULAR</h5>
+                    <hr>
+                    <p>Served as Hostel Representative.</p>
+                    <p>Active member of Inferno (The Dance Society).</p>
+                    <p>Basketball Inter-School championship runners up.</p>
+                    <p>Badminton Inter-School championship runners up.</p>
+                </div>
+            </div>
+
+            <!-- Volunteer Work Section -->
+            <div class="col-md-6">
+                <div class="card card-body h-100">
+                    <h5>VOLUNTEER WORK</h5>
+                    <hr>
+                    <p>SHIV NADAR UNIVERSITY ALUMNI MEET 2021 - Involved in event management along with logistics and decoration.</p>
+                    <p>Member of the distribution team of basic necessities to households in my society during the time of COVID-19.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
