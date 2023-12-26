@@ -8,6 +8,8 @@
         {
             "src": "/(.*)",
             "dest": "myapp/wsgi.py"
-        }
+        },
+    {"src": "/(.*)",
+    "dest": "myapp/wsgi.py"}
     ]
 }
